@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dynamic Resume Builder</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>Dynamic Resume Builder</h1>
+
+  <!-- Form for user input -->
+  <form id="resume-form">
+    <h2>Personal Information</h2>
+    <label for="name">Name:</label>
+    <input type="text" id="name" required />
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" required />
+
+    <h2>Education</h2>
+    <label for="degree">Degree:</label>
+    <input type="text" id="degree" required />
+
+    <label for="school">School:</label>
+    <input type="text" id="school" required />
+
+    <h2>Work Experience</h2>
+    <label for="jobTitle">Job Title:</label>
+    <input type="text" id="jobTitle" required />
+
+    <label for="company">Company:</label>
+    <input type="text" id="company" required />
+
+    <h2>Skills</h2>
+    <label for="skills">Skills (comma-separated):</label>
+    <input type="text" id="skills" required />
+
+    <button type="submit">Generate Resume</button>
+  </form>
+
+  <!-- Section for displaying the generated resume -->
+  <div id="resume">
+    <h2 style="color:#07036d ;">Resume</h2>
+    <div id="personal-info"></div>
+    <div id="education-info"></div>
+    <div id="experience-info"></div>
+    <div id="skills-info"></div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>

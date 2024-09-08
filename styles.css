@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color:#07036d;
+  }
+  
+  h1, h2, h3 {
+    color: burlywood;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    color: burlywood;
+    display: block;
+    margin-top: 10px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color:burlywood ;
+    color: #0904a4 ;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: rgb(183, 119, 36);
+  }
+  
+  #resume {
+    background-color: burlywood;
+    color: #07036d;
+    padding: 20px;
+    border: 1px solid #07036d;
+  }
+  
+  #resume h2 {
+    margin-top: 0;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
